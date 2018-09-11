@@ -65,30 +65,35 @@
             // 
             // Reset
             // 
-            this.Reset.Location = new System.Drawing.Point(654, 96);
+            this.Reset.Location = new System.Drawing.Point(358, 96);
             this.Reset.Name = "Reset";
             this.Reset.Size = new System.Drawing.Size(75, 23);
             this.Reset.TabIndex = 3;
             this.Reset.Text = "Reset ";
             this.Reset.UseVisualStyleBackColor = true;
+            this.Reset.Click += new System.EventHandler(this.Reset_Click);
             // 
             // Location
             // 
-            this.Location.Location = new System.Drawing.Point(358, 96);
+            this.Location.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Location.Location = new System.Drawing.Point(713, 96);
             this.Location.Name = "Location";
             this.Location.Size = new System.Drawing.Size(75, 23);
             this.Location.TabIndex = 2;
             this.Location.Text = "Save place";
             this.Location.UseVisualStyleBackColor = true;
+            this.Location.Click += new System.EventHandler(this.Location_Click);
             // 
             // Save
             // 
-            this.Save.Location = new System.Drawing.Point(52, 96);
+            this.Save.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Save.Location = new System.Drawing.Point(12, 96);
             this.Save.Name = "Save";
             this.Save.Size = new System.Drawing.Size(75, 23);
             this.Save.TabIndex = 1;
             this.Save.Text = "Save size";
             this.Save.UseVisualStyleBackColor = true;
+            this.Save.Click += new System.EventHandler(this.Save_Click);
             // 
             // Name
             // 
@@ -117,6 +122,7 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.groupBox1);
             this.HelpButton = true;
+            this.Name = "Form1";
             this.Text = "MainForm";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

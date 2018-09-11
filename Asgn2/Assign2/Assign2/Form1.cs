@@ -19,7 +19,7 @@ namespace Assign2
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
-
+           
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -27,6 +27,36 @@ namespace Assign2
             //check for a name entered
             if (((Control)sender).Text.Trim().Length == 0) 
                 MessageBox.Show("Please enter a name", "Error");
+
+            //check if user entered a space and reset their input if they did
+            else
+            {
+                int i = 0;
+                while (i++ < 16)
+                {
+                    if (((Control)sender).Text[i].Equals(' '))
+                    {
+                        MessageBox.Show("Name cannot contain a space", "Error");
+                        ((Control)sender).Text = "";
+                    }
+                }
+            }
+        }
+
+        private void Save_Click(object sender, EventArgs e)
+        {
+            //Properties.Settings.Default.UserSize.save();
+        }
+
+        private void Location_Click(object sender, EventArgs e)
+        {
+            //Properties.Settings.Default.UserLocation.save();
+        }
+
+        private void Reset_Click(object sender, EventArgs e)
+        {
+            //Properties.Settings.Default.UserSize.Reset();
+            //Properties.Settings.Default.UserLocation.Reset();
         }
     }
 }
