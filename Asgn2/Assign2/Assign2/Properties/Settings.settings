@@ -12,7 +12,7 @@
       <Value Profile="(Default)">600, 0</Value>
     </Setting>
     <Setting Name="UserSize" Type="System.Drawing.Size" Scope="User">
-      <Value Profile="(Default)">750, 500</Value>
+      <Value Profile="(Default)">1000, 500</Value>
     </Setting>
     <Setting Name="UserLocation" Type="System.Drawing.Point" Scope="User">
       <Value Profile="(Default)">600, 0</Value>

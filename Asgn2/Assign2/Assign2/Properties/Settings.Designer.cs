@@ -55,7 +55,7 @@ namespace Assign2.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("750, 500")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1000, 500")]
         public global::System.Drawing.Size UserSize {
             get {
                 return ((global::System.Drawing.Size)(this["UserSize"]));
