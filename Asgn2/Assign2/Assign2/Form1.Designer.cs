@@ -48,7 +48,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(800, 125);
+            this.groupBox1.Size = new System.Drawing.Size(586, 125);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "quadButtonTextGroup";
@@ -56,16 +56,18 @@
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Location = new System.Drawing.Point(12, 58);
             this.textBox1.MaxLength = 15;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(776, 20);
+            this.textBox1.Size = new System.Drawing.Size(562, 20);
             this.textBox1.TabIndex = 4;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Reset
             // 
-            this.Reset.Location = new System.Drawing.Point(358, 96);
+            this.Reset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.Reset.Location = new System.Drawing.Point(260, 96);
             this.Reset.Name = "Reset";
             this.Reset.Size = new System.Drawing.Size(75, 23);
             this.Reset.TabIndex = 3;
@@ -76,7 +78,7 @@
             // Location
             // 
             this.Location.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Location.Location = new System.Drawing.Point(713, 96);
+            this.Location.Location = new System.Drawing.Point(499, 96);
             this.Location.Name = "Location";
             this.Location.Size = new System.Drawing.Size(75, 23);
             this.Location.TabIndex = 2;
@@ -97,7 +99,8 @@
             // 
             // Name
             // 
-            this.Name.Location = new System.Drawing.Point(358, 19);
+            this.Name.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.Name.Location = new System.Drawing.Point(255, 19);
             this.Name.Name = "Name";
             this.Name.Size = new System.Drawing.Size(75, 23);
             this.Name.TabIndex = 0;
@@ -111,18 +114,18 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(0, 125);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(800, 325);
+            this.listBox1.Size = new System.Drawing.Size(586, 325);
             this.listBox1.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(586, 450);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.groupBox1);
             this.HelpButton = true;
-            this.Name = "Form1";
+            //this.Name = "Form1";
             this.Text = "MainForm";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
