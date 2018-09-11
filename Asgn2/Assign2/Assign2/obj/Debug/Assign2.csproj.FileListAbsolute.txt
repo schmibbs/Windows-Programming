@@ -1,0 +1,10 @@
+C:\Users\Joseph Adams\source\repos\Windows Programming\Assign2\Assign2\Assign2\bin\Debug\Assign2.exe.config
+C:\Users\Joseph Adams\source\repos\Windows Programming\Assign2\Assign2\Assign2\bin\Debug\Assign2.exe
+C:\Users\Joseph Adams\source\repos\Windows Programming\Assign2\Assign2\Assign2\bin\Debug\Assign2.pdb
+C:\Users\Joseph Adams\source\repos\Windows Programming\Assign2\Assign2\Assign2\obj\Debug\Assign2.csprojAssemblyReference.cache
+C:\Users\Joseph Adams\source\repos\Windows Programming\Assign2\Assign2\Assign2\obj\Debug\Assign2.Form1.resources
+C:\Users\Joseph Adams\source\repos\Windows Programming\Assign2\Assign2\Assign2\obj\Debug\Assign2.Properties.Resources.resources
+C:\Users\Joseph Adams\source\repos\Windows Programming\Assign2\Assign2\Assign2\obj\Debug\Assign2.csproj.GenerateResource.cache
+C:\Users\Joseph Adams\source\repos\Windows Programming\Assign2\Assign2\Assign2\obj\Debug\Assign2.csproj.CoreCompileInputs.cache
+C:\Users\Joseph Adams\source\repos\Windows Programming\Assign2\Assign2\Assign2\obj\Debug\Assign2.exe
+C:\Users\Joseph Adams\source\repos\Windows Programming\Assign2\Assign2\Assign2\obj\Debug\Assign2.pdb

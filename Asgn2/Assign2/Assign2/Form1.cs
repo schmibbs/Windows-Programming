@@ -16,5 +16,17 @@ namespace Assign2
         {
             InitializeComponent();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            //check for a name entered
+            if (((Control)sender).Text.Trim().Length == 0) 
+                MessageBox.Show("Please enter a name", "Error");
+        }
     }
 }

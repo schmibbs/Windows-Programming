@@ -52,5 +52,29 @@ namespace Assign2.Properties {
                 return ((global::System.Drawing.Point)(this["DefaultLocation"]));
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("750, 500")]
+        public global::System.Drawing.Size UserSize {
+            get {
+                return ((global::System.Drawing.Size)(this["UserSize"]));
+            }
+            set {
+                this["UserSize"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("600, 0")]
+        public global::System.Drawing.Point UserLocation {
+            get {
+                return ((global::System.Drawing.Point)(this["UserLocation"]));
+            }
+            set {
+                this["UserLocation"] = value;
+            }
+        }
     }
 }
