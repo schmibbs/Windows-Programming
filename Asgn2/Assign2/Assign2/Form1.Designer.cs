@@ -109,7 +109,7 @@
             // 
             // listBox1
             // 
-            this.listBox1.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.listBox1.BackColor = System.Drawing.Color.SaddleBrown;
             this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(0, 125);
@@ -125,7 +125,7 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.groupBox1);
             this.HelpButton = true;
-            //this.Name = "Form1";
+            this.Name = "Form1";
             this.Text = "MainForm";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

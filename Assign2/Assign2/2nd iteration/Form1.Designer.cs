@@ -62,7 +62,7 @@
             this.Controls.Add(this.groupBox1);
             this.HelpButton = true;
             this.Location = global::Assign2.Properties.Settings.Default.DefaultLocation;
-            this.Name = "Form1";
+            //this.Name = "Form1";
             this.Text = "MainForm";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
