@@ -16,5 +16,15 @@ namespace Assignment3
         {
             InitializeComponent();
         }
+
+        private void openPreferencesModaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
