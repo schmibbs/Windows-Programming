@@ -59,6 +59,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(304, 67);
             this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // MemberNames
             // 
@@ -73,6 +74,7 @@
             this.MemberNames.TabIndex = 1;
             this.MemberNames.Text = "Eric, Joseph, Jose, Jorge, Mehdi, Otto";
             this.MemberNames.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.MemberNames.TextChanged += new System.EventHandler(this.MemberNames_TextChanged);
             // 
             // GroupAndMemberNames
             // 

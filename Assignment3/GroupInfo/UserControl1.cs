@@ -26,5 +26,15 @@ namespace GroupInfo
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void MemberNames_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
