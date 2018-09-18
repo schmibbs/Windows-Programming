@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Assignment3
 {
-    public partial class Form1 : Form
+    public partial class Root : Form
     {
-        public Form1()
+        public Root()
         {
             InitializeComponent();
         }
@@ -28,6 +28,11 @@ namespace Assignment3
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void openPreferencesModallyToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }

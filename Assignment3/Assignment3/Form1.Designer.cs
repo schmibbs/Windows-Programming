@@ -1,6 +1,6 @@
 ﻿namespace Assignment3
 {
-    partial class Form1
+    partial class Root
     {
         /// <summary>
         /// Required designer variable.
@@ -62,6 +62,7 @@
             this.openPreferencesModallyToolStripMenuItem.Name = "openPreferencesModallyToolStripMenuItem";
             this.openPreferencesModallyToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
             this.openPreferencesModallyToolStripMenuItem.Text = "Open Preferences Modally";
+            this.openPreferencesModallyToolStripMenuItem.Click += new System.EventHandler(this.openPreferencesModallyToolStripMenuItem_Click);
             // 
             // openPreferencesModelesslyToolStripMenuItem
             // 
@@ -69,7 +70,7 @@
             this.openPreferencesModelesslyToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
             this.openPreferencesModelesslyToolStripMenuItem.Text = "Open Preferences Modelessly";
             // 
-            // Form1
+            // Root
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -77,8 +78,8 @@
             this.ClientSize = new System.Drawing.Size(533, 292);
             this.ContextMenuStrip = this.Preferences;
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Root";
+            this.Text = "Welcome!";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Preferences.ResumeLayout(false);
             this.ResumeLayout(false);
