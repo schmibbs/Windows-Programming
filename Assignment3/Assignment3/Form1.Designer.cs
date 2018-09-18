@@ -29,49 +29,66 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.PreferencesMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.asdfToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fdsaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Preferences = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.openPreferencesModallyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openPreferencesModelesslyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.PreferencesMenu.SuspendLayout();
+            this.Preferences.SuspendLayout();
             this.SuspendLayout();
             // 
-            // PreferencesMenu
+            // asdfToolStripMenuItem
             // 
-            this.PreferencesMenu.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.PreferencesMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.asdfToolStripMenuItem.Name = "asdfToolStripMenuItem";
+            this.asdfToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.asdfToolStripMenuItem.Text = "asdf";
+            // 
+            // fdsaToolStripMenuItem
+            // 
+            this.fdsaToolStripMenuItem.Name = "fdsaToolStripMenuItem";
+            this.fdsaToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.fdsaToolStripMenuItem.Text = "fdsa";
+            // 
+            // Preferences
+            // 
+            this.Preferences.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openPreferencesModallyToolStripMenuItem,
             this.openPreferencesModelesslyToolStripMenuItem});
-            this.PreferencesMenu.Name = "PreferencesMenu";
-            this.PreferencesMenu.Size = new System.Drawing.Size(318, 64);
+            this.Preferences.Name = "Preferences";
+            this.Preferences.Size = new System.Drawing.Size(230, 48);
             // 
             // openPreferencesModallyToolStripMenuItem
             // 
             this.openPreferencesModallyToolStripMenuItem.Name = "openPreferencesModallyToolStripMenuItem";
-            this.openPreferencesModallyToolStripMenuItem.Size = new System.Drawing.Size(317, 30);
+            this.openPreferencesModallyToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
             this.openPreferencesModallyToolStripMenuItem.Text = "Open Preferences Modally";
             // 
             // openPreferencesModelesslyToolStripMenuItem
             // 
             this.openPreferencesModelesslyToolStripMenuItem.Name = "openPreferencesModelesslyToolStripMenuItem";
-            this.openPreferencesModelesslyToolStripMenuItem.Size = new System.Drawing.Size(317, 30);
+            this.openPreferencesModelesslyToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
             this.openPreferencesModelesslyToolStripMenuItem.Text = "Open Preferences Modelessly";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
+            this.ClientSize = new System.Drawing.Size(533, 292);
+            this.ContextMenuStrip = this.Preferences;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.PreferencesMenu.ResumeLayout(false);
+            this.Preferences.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.ContextMenuStrip PreferencesMenu;
+        private System.Windows.Forms.ToolStripMenuItem asdfToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fdsaToolStripMenuItem;
+        private System.Windows.Forms.ContextMenuStrip Preferences;
         private System.Windows.Forms.ToolStripMenuItem openPreferencesModallyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem openPreferencesModelesslyToolStripMenuItem;
     }
