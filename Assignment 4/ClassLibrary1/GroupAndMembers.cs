@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ClassLibrary1
 {
-    public partial class UserControl1 : UserControl
+    public partial class GroupAndMembers : UserControl
     {
-        public UserControl1()
+        public GroupAndMembers()
         {
             InitializeComponent();
         }

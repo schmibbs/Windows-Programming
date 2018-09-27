@@ -1,6 +1,6 @@
 ﻿namespace ClassLibrary1
 {
-    partial class UserControl1
+    partial class GroupAndMembers
     {
         /// <summary> 
         /// Required designer variable.

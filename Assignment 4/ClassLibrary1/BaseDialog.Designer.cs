@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.userControl11 = new ClassLibrary1.UserControl1();
-            this.userControl21 = new ClassLibrary1.UserControl2();
+            this.userControl11 = new ClassLibrary1.GroupAndMembers();
+            this.userControl21 = new ClassLibrary1.CourseAndSemester();
             this.SuspendLayout();
             // 
             // userControl11
@@ -66,7 +66,7 @@
 
         #endregion
 
-        private UserControl1 userControl11;
-        private UserControl2 userControl21;
+        private GroupAndMembers userControl11;
+        private CourseAndSemester userControl21;
     }
 }

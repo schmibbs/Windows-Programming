@@ -1,6 +1,6 @@
 ﻿namespace ClassLibrary1
 {
-    partial class UserControl3
+    partial class OathText
     {
         /// <summary> 
         /// Required designer variable.

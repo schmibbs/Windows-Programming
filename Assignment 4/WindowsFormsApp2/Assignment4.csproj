@@ -51,6 +51,7 @@
     <Compile Include="AboutDialog.Designer.cs">
       <DependentUpon>AboutDialog.cs</DependentUpon>
     </Compile>
+    <Compile Include="ClassLibrary1\UserControl3.cs" />
     <Compile Include="CustomChild.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,12 +90,6 @@
     <Compile Include="RectangelChild.Designer.cs">
       <DependentUpon>RectangelChild.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl3.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl3.Designer.cs">
-      <DependentUpon>UserControl3.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="AboutDialog.resx">
       <DependentUpon>AboutDialog.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +102,9 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OathDialog.resx">
+      <DependentUpon>OathDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PrefrencesDialog.resx">
       <DependentUpon>PrefrencesDialog.cs</DependentUpon>
     </EmbeddedResource>
@@ -118,12 +116,10 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="RectangelChild.resx">
       <DependentUpon>RectangelChild.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl3.resx">
-      <DependentUpon>UserControl3.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -143,6 +139,12 @@
       <Project>{5C3696EF-129A-4552-BE7F-869DDAEC96FA}</Project>
       <Name>ClassLibrary1</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New wallpaper perhaps.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
